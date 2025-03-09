@@ -56,6 +56,12 @@ class IntegerNumbersStack{
 function main() {
     const stack = new IntegerNumbersStack();
 
+    stack.displayStack();
+
+    stack.averageEven();
+
+    stack.deleteFromStack();
+
     stack.addNumToStack(1);
     stack.addNumToStack(2);
     stack.addNumToStack(3);
